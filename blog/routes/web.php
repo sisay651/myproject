@@ -31,7 +31,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('downloadData/{type}', 'DataController@downloadData');
 
-Route::post('importData', 'DataController@importData');
-Route::get('admin', 'CompanysController@create');
+// Route::post('importData', 'DataController@importData');
+// Route::get('admin', 'CompanysController@create');
 
   
