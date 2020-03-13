@@ -15,6 +15,9 @@ class User extends Authenticatable
 public function students(){
 	return $this->hasMany('App\students');
 }
+public function roles(){
+	return $this->belongsToMany('App\Role');
+}
        
 }
 
